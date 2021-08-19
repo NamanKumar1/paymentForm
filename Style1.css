@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px 10px;
+    border-radius: 10px;
+    border: solid;
+    border-width: 2px;
+}
+
+.body {
+    background-color: darkgray;
+    padding: 2px;
+}
+
+.heading {
+    text-align: center;
+    background-color: rgb(111, 194, 28);
+    padding: 5px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+.info {
+    font-size: 12px;
+}
+
+.userInformation {
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+}
+
+fieldset {
+    background-color: white;
+}
+
+.paymentInformation {
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(95, 173, 16);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: teal;
+}
+
+a {
+    font-weight: 800;
+    color: black;
+}
+
+footer {
+    background-color: grey;
+    padding: 5px;
+    text-align: center;
+}
